@@ -44,7 +44,7 @@ header h1 {
     width: 150px; /* Resize the width of the image */
     height: auto; /* Maintain the aspect ratio */
     top: 500px; /* Vertical position from the top */
-    left: 1200px; /* Horizontal position from the left */
+    left: 1050px; /* Horizontal position from the left */
     transform: rotate(20deg);
     animation: none; /* Optional: Add bounce animation */
 }
