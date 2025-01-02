@@ -30,6 +30,24 @@ header h1 {
     animation: glow 2s infinite alternate;
 }
 
+.hello-kitty-left {
+    position: absolute; /* Allows you to position the image at specific coordinates */
+    width: 120px; /* Resize the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    top: 50px; /* Vertical position from the top */
+    left: 100px; /* Horizontal position from the left */
+    animation: bounce 2s infinite; /* Optional: Add bounce animation */
+}
+
+.hello-kitty-right {
+    position: absolute; /* Allows you to position the image at specific coordinates */
+    width: 100px; /* Resize the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    top: 200px; /* Vertical position from the top */
+    left: 400px; /* Horizontal position from the left */
+    animation: bounce 2s infinite; /* Optional: Add bounce animation */
+}
+
 /* Paragraph */
 main p {
     font-size: 1.2rem;
