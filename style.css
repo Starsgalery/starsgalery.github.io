@@ -118,6 +118,14 @@ footer p {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
+.gallery-page {
+    background: url("images/background.jpg") no-repeat center center;
+    background-size: cover;
+    color: #4A154B;
+    text-align: center;
+    padding: 20px;
+}
+
 /* Gallery Grid */
 .gallery-grid {
     display: grid;
